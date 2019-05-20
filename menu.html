@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Menu </title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="menu-script.js"> </script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+
+<body>
+
+<!-- static for all pages-->
+	<div id="nav_bar_and_header">
+	<h1> Shakes </h1>
+	
+	<nav>
+		<ul class="navigation">
+			<li> <a href="home.html"> Home </a> </li>
+			
+			<li id="menu">
+				<div class="choices">
+					<a href="menu.html" style="background-color: #DC1051"> Menu </a> 
+					<div class="dropdown-content">
+						<a href="menu.html" id="FULL"> Full </a> 
+						<a href="#basic" id="BASIC"> Basic </a> 
+						<a href="#strange" id="STRANGE"> Different </a> 
+						<a href="#mix" id = "MIX"> Mix </a>
+					</div>
+				</div>
+			</li>
+			
+			<li> <a href="order.html"> Order </a> </li>
+			<li> <a href="contact.html"> Contact </a> </li>
+			<li id="about"> <a href="about.html"> About </a> </li>
+		</ul>
+	</nav>
+	</div>
+<!-- static for all pages-->
+
+<!-- different categories -->
+	<div id="full">
+	<!-- images of all flavours -->
+		<div class="image-space"> 
+			<h3> Chocolate </h3>
+			<img src="choco.jpg" class="image" id="basic-shakes">
+			<div id="buttons"> 
+				<button id="minus"> - </button>
+				<span id="quantity"> 0 </span>
+				<button id="plus"> + </button>
+			</div>
+		</div>
+		
+		<div class="image-space">
+			<h3> Vanilla </h3>
+			<img src="vanilla.jpg" class="image" id="basic-shakes">
+		</div>
+		
+		<div class="image-space">
+			<h3> Strawberry </h3>
+			<img src="strawberry.jpg" class="image" id="basic-shakes">
+		</div>
+		
+		<div class="image-space">
+			<h3> Raspberry </h3>
+			<img src="raspberry.jpg" class="image" id="basic-shakes">
+		</div>
+		
+		<div class="image-space">
+			<h3> Coffee </h3>
+			<img src="coffee.jpg" class="image" id="basic-shakes">
+		</div>
+		
+		<div class="image-space">
+			<h3> Grape </h3>
+			<img src="grape.jpg" class="image" id="basic-shakes">
+		</div>
+		
+		<div class="image-space">
+			<h3> Green Tea Cherry </h3>
+			<img src="greenteacherry.jpg" class="image" id="basic-shakes">
+		</div>
+		
+		<div class="image-space">
+			<h3> Piña-Colada </h3>
+			<img src="pinacolada.jpg" class="image" id="basic-shakes">
+		</div>
+	
+	</div>
+
+	<div id="basic" class="selections">
+	<!-- images of the 8 basic shakes -->
+	</div>
+	
+	<div id="strange" class="selections">
+	<!-- images of 8 strange flavours -->
+	</div>
+	
+	<div id="mix" class="selections">
+	<!-- images of 8 mix and match flavours -->
+	</div>
+
+	<footer> ©2017 </footer>
+	
+</body>
+
+</html>
